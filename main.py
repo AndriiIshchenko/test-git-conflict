@@ -2,9 +2,8 @@ from django.db import models
 
 class UserProfile(models.Model):
     username = models.CharField()
-    password = models.CharField(max_length=)
+    password = models.CharField(max_length=120)
     email = models.EmailField()
-    last_name = models.CharField()
     first_name = models.CharField()
 
 
