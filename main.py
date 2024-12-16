@@ -10,3 +10,6 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.username
+    
+    def get_full_name(self) -> str:
+        return self.first_name + "gav"
