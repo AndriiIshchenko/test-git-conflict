@@ -15,5 +15,5 @@ class UserProfile(models.Model):
         return self.first_name + "gav"
     
     def say_hello(self):
-        return f"Hello {self.first_name}"
+        return f"Hello"
 
